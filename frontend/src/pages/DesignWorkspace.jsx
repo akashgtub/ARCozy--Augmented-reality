@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Undo, Redo, Save, Share2, Sparkles, Move, RotateCw, Maximize, Palette, Trash2, Copy, Search, Layers } from 'lucide-react';
+import { Undo, Redo, Save, Share2, Sparkles, Move, RotateCw, Maximize, Palette, Trash2, Copy, Search, Layers, Box } from 'lucide-react';
 import { mockFurniture } from '../services/mockData';
 
 function DesignWorkspace() {
