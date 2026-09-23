@@ -1,16 +1,40 @@
-# aaaarcozy
+# ARCozy Web Application
 
-A new Flutter project.
+ARCozy is a modern web application (formerly Flutter) converted into a React + Node.js architecture.
 
-## Getting Started
+## Features
+- **Secure Authentication**: Built with Node.js and SQLite.
+- **Dynamic Dashboard**: Take photos, upload media, and quickly join Jitsi meetings.
+- **QR Module**: Generate and scan QR codes directly using your device camera.
 
-This project is a starting point for a Flutter application.
+## Prerequisites
+- [Node.js](https://nodejs.org/) installed on your machine.
 
-A few resources to get you started if this is your first Flutter project:
+## How to Run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+To run the project, you need to start both the backend server and the frontend React app in two separate terminal windows.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 1. Start the Backend
+Open your terminal, navigate to the `backend` folder, and start the server:
+
+```bash
+cd backend
+npm install
+npm start
+```
+*The backend will run on http://localhost:5000*
+
+### 2. Start the Frontend
+Open a second terminal window, navigate to the `frontend` folder, and start the development server:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+*The frontend will run on a local port (usually http://localhost:5173).*
+
+---
+**Note:** A default admin account is pre-configured. You can log in using:
+- **Username**: `admin`
+- **Password**: `1234`
